@@ -1,0 +1,81 @@
+#price_part{
+    padding: 80px 0;
+    background: #0f1c22;
+    .appis{
+        padding: 20px 0;
+        img{
+            margin-left: 150px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        h2{
+            color: #cc9900;
+            font-size: 30px;
+            font-weight: 400;
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+        }
+        h3{
+            color: #cc9900;
+            font-size: 20px;
+            font-weight: light 300;
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+            position: relative;
+            margin-bottom: 20px;
+            z-index: 1;
+            &::after{
+                position: absolute;
+                content: '';
+                left: 0;
+                top: 37px;
+                background: #cc9900;
+                width: 71%;
+                height: 1px;
+                z-index: -1;
+                margin-left: 80px;
+            }
+        }
+        p{
+            color: #cc9900;
+            font-size: 16px;
+            font-weight: 400;
+            font-family: 'Open Sans', sans-serif;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+#count_part{
+    background: #2e221d;
+    padding: 50px 0;
+}
+.cont_ppt{
+    margin-left: 30px;
+    position: relative;
+}
+.cont_ppt::after{
+    position: absolute;
+    content: '';
+    top: 170px;
+    left: 80px;
+    width: 40px;
+    height: 2px;
+    background: #fff;
+}
+.cont_ppt h2{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+   margin-top: 20px;
+}
+.cont_ppt p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: light 300;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    margin-top: -5px;
+}

@@ -1,0 +1,109 @@
+#project_patr{
+    background: #0f1c22;
+    padding: 80px 0;
+    .project_header{
+        h2{
+            color: #cc9900;
+            font-size: 30px;
+            font-weight: 700;
+            font-family: 'Montserrat', sans-serif;
+        }
+        p{
+            color: #cc9900;
+            font-size: 16px;
+            font-weight: light 300;
+            font-family: 'Open Sans', sans-serif;
+            margin-top: 15px;
+            margin-bottom: 20px;
+        }
+    }
+    .project_gall{
+        margin-top: 50px;
+        .project_img{
+            position: relative;
+            img{
+                border-radius: 5px;
+            }
+            .overly{
+                position: absolute;
+                left: 0;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                background: rgba(39, 39, 39, 0.56);
+                border: none;
+                transform: scale(0);
+                ul{
+                    position: absolute;
+                    top: 40%;
+                    left: 40%;
+                    li {
+                        a{
+                        color: #fff;
+                        font-size: 35px;
+                        }
+                    }
+                }
+            }
+        }
+        &:hover{
+            .overly{
+                transform: scale(1);
+                border-radius: 5px;
+            }
+        }
+        .project_textt{
+            margin-top: 10px;
+            h3{
+                color: #cc9900;
+                font-size: 20px;
+                font-weight: 500;
+                font-family: 'Open Sans', sans-serif;
+                margin-left: 30px;
+            }
+            h4{
+                color: #cc9900;
+                font-size: 16px;
+                font-weight: light 300;
+                font-family: 'Open Sans', sans-serif;
+                margin-left: 30px;
+            }
+            p{
+                color: #cc9900;
+                font-size: 16px;
+                font-weight: light 300;
+                font-family: 'Open Sans', sans-serif;
+                text-align: center;
+                margin-top: -85px;
+                background: #362f2d;
+                padding: 16px 16px;
+                border-bottom-right-radius: 5px;
+                border-bottom-left-radius: 5px;
+                transform: scale(0);
+            }
+        }
+        &:hover{
+            .project_textt{
+                p{
+                    transform: scale(1);
+                }
+            }
+        }
+    }
+    .btnn{
+        margin-top: 30px;
+        button{
+            border: none;
+            border-radius: 5px;
+            a{
+                padding: 20px 45px;
+                color: #fff;
+                font-size: 14px;
+                font-weight: 600;
+                font-family: 'Open Sans', sans-serif;
+                text-transform: uppercase;
+                background: #cc9900;
+            }
+        }
+    }
+}

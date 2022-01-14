@@ -1,0 +1,38 @@
+#counter_part{
+    background: #0f1c22;
+    padding-bottom: 40px;
+    .count_head{
+        img{
+            color: #cc9900;
+        }
+        h1{
+            color: #cc9900;
+            font-size: 30px;
+            font-weight: 700;
+            font-family: 'Montserrat', sans-serif;
+            margin-top: 20px;
+        }
+        p{
+            color: #cc9900;
+            font-size: 16px;
+            font-weight: light 300;
+            font-family: 'Open Sans', sans-serif; 
+        }
+    }
+}
+
+.back-to-top {
+    width: 40px;
+    height: 40px;
+    color: #cc9900;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #fff;
+    background: #0f1c22;
+    position: fixed;
+    right: 30px;
+    bottom: 40px;
+    cursor: pointer;
+    z-index: 999;
+}

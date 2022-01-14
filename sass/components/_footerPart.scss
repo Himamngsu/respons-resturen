@@ -1,0 +1,57 @@
+#footer_part{
+    padding: 80px 0;
+    background: #0f1c22;
+    border: 2px solid #cc9900;
+    .footer_text{
+        h3{
+            color: #cc9900;
+            font-size: 24px;
+            font-weight: 400;
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+        }
+        img{
+            margin-left: 50px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        p{
+            color: #cc9900;
+            font-size: 16px;
+            font-weight: 400;
+            font-family: 'Open Sans', sans-serif;
+            text-align: center;
+            line-height: 30px;
+        }
+        .payable{
+            ul{
+                display: flex;
+                margin-top: 50px;
+                margin-left: 100px;
+                li{
+                    margin-left: 15px;
+                    a{
+                        color: #cc9900;
+                        font-size: 20px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+    .footer_social{
+        ul{
+            display: flex;
+            margin-top: 50px;
+            margin-left: 100px;
+            li{
+                margin-left: 15px;
+                a{
+                    color: #cc9900;
+                    font-size: 20px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
